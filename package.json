@@ -1,0 +1,16 @@
+{
+  "name": "jst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "author": "Faraz Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4"
+  }
+}
